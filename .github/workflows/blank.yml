@@ -14,3 +14,6 @@ jobs:
       - name: Ping sympcare_models
         run: |
           curl -sL "https://rohit-mewada-1125-sympcare-models.hf.space/" > /dev/null || true
+      - name: Ping sympcare_models
+        run: |
+          curl -sL "https://rohit-mewada-1125-Rag_chatbot.hf.space/" > /dev/null || true
